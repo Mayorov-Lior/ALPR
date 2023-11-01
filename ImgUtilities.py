@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import imutils
 #import matplotlib
 
-PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
+# PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
 CATAGORIES_NUM = 12 # 0,1,2,3,4,5,6,7,8,9,צ,*(nothing)
 IMG_SIZE = 224
 
@@ -113,9 +113,6 @@ def blackoutBackgroundFromMinAreaRect(img, imgRotatedBox): # masking to black ou
   imgCropped = imgCropped[y:y+h, x:x+w]
 
   return imgCropped
-
-
-
 
 def fragmentOfBlackPixels(img):
   img =  img.astype('uint8')

@@ -30,7 +30,7 @@ numChars = 8
 show_characters = False
 show_contours = False
 #PATH = '/content/drive/My Drive/lp_data/'
-PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
+# PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
 hNew = 250
 def adjustToUInt8(img):
   if (np.amax(img) <= 1):

@@ -21,8 +21,8 @@ from keras.optimizers import Adam, SGD
 from keras.models import Model
 from keras.layers import Conv2D, MaxPooling2D, Add, Activation, Dense, Dropout, Flatten, Input
 
-PATH = '/content/drive/My Drive/lp_data/'
-PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
+# PATH = '/content/drive/My Drive/lp_data/'
+# PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
 CHAR_IMG_SIZE = 28
 CATAGORIES_NUM = 12 # 0,1,2,3,4,5,6,7,8,9,צ,.
 GARBAGE_INDEX = 11

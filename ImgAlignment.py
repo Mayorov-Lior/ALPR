@@ -3,7 +3,7 @@ import numpy as np
 from ImgUtilities import *
 import imutils
  
-PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
+# PATH = 'C:/Users/Lior/Documents/work/License Plate Recognition/'
 MAX_FEATURES = 500
 GOOD_MATCH_PERCENT = 0.15
 
@@ -271,14 +271,14 @@ def alignImg (lp, mask, lpModel, alignModel):
 
 
 
-if check:
+# if check:
     
-    import os
-    for filename in sorted(os.listdir(PATH + 'lp_images/'), key=getCarIndex)[880:]:
-        #fileToRead = PATH + 'lp_images/lp_746.jpg'
-        fileToRead = PATH + 'lp_images/' +  filename
-        lp = cv2.imread(fileToRead , cv2.IMREAD_COLOR)
-        alignImg (lp)
-        #img1_color = cv2.imread(PATH + 'image-registration-example.jpg' , cv2.IMREAD_COLOR)
-        #cv2.imshow('org2', lp) 
-        #cv2.waitKey(0)
+#     import os
+#     for filename in sorted(os.listdir(PATH + 'lp_images/'), key=getCarIndex)[880:]:
+#         #fileToRead = PATH + 'lp_images/lp_746.jpg'
+#         fileToRead = PATH + 'lp_images/' +  filename
+#         lp = cv2.imread(fileToRead , cv2.IMREAD_COLOR)
+#         alignImg (lp)
+#         #img1_color = cv2.imread(PATH + 'image-registration-example.jpg' , cv2.IMREAD_COLOR)
+#         #cv2.imshow('org2', lp) 
+#         #cv2.waitKey(0)

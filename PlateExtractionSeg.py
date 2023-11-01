@@ -47,7 +47,7 @@ print ('number of files: ', count)'''
 # https://github.com/jrieke/shape-detection/blob/master/single-rectangle.ipynb
 # unet model- https://github.com/zhixuhao/unet/blob/master/model.py
 # FCN model - https://github.com/aurora95/Keras-FCN/blob/master/models.py
-PATH = '/content/drive/My Drive/lp_data/'
+# PATH = '/content/drive/My Drive/lp_data/'
 NOT_WHITESPACE = re.compile(r'[^\s]')
 NUM_IMGS = 665
 IMG_SIZE = 224
